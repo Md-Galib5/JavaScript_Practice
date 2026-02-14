@@ -3,7 +3,7 @@ function validOtp(otp) {
     if(typeof otp !== "string"){
         return "Invalid";
     }
-    if(otp.length === 8 && ((otp[0] === 'p') &&& (otp[1] === 'h') &&& otp[2] === '-')){
+    if(otp.length === 8 && ((otp[0] === 'p') && (otp[1] === 'h') && otp[2] === '-')){
         return true;
     }else{
         return false;
