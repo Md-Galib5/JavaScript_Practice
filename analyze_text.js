@@ -11,7 +11,6 @@ function analyzeText(str) {
     let max = "";
     let ch = 0;
     let word = 0;
-
     for(word of words){
         if(word.length > max.length){
             max = word;

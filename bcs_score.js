@@ -6,3 +6,5 @@ function finalScore(omr) {
     }
     return Math.round(ans);
 }
+
+//console.log(ans)
